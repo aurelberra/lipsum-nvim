@@ -150,7 +150,6 @@ return {
   "prochaine",
   "prochaine",
   "puis",
-  "qu",
   "quatuor",
   "que",
   "quelle",
