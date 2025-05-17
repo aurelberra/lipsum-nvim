@@ -6,8 +6,8 @@ Originally created by `Stewie410`, whose repo is no longer available.
 
 ## ✨ Features
 
-- User-defined wordlists for generation
-- Generate 1+ words, lines/sentences or paragraphs
+- Use either preset or user-defined word lists for generation
+- Generate one or more words, lines/sentences or paragraphs
 - Customize generator command names
 
 ## ⚠️ Requirements
@@ -87,11 +87,11 @@ paragraphs of Marcel Proust’s *À la recherche du temps perdu*
 
 ## ⌨️ Commands
 
-Command names can be customized in the setup options; but by default:
+Command names can be customized in the setup options, but by default:
 
-- `LipsumWord [num]`: Generate random word(s) from word list
-- `LipsumLine [num]`: Generate random line(s)/sentence(s) from word list
-- `LipsumParagraph [num]`: Generate random paragraph(s) from word list
+- `LipsumWord [num]`: generate random word(s) from word list
+- `LipsumLine [num]`: generate random line(s)/sentence(s) from word list
+- `LipsumParagraph [num]`: generate random paragraph(s) from word list
 
 Each command will _always_ generate at least 1 item.
 
@@ -113,7 +113,7 @@ tr -d '\n[:punct:]' < lorem.txt | \
 ```
 
 While this may not produce every possible word from the generator, on average
-this produces around 300 unique words, which should be sufficient, hopefully.
+this produces around 300 unique words, which should be sufficient.
 
 To add your own custom words:
 
