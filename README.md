@@ -68,6 +68,21 @@ require("lipsum-nvim").setup({
 })
 ```
 
+The preset word lists are the following:
+
+* `standard`: a very common list of 63 unique, mostly Latin words, based on 
+fragments of Cicero’s *De finibus bonorum et malorum*, with 12 characters added 
+(see the [“Lorem Ipsum” Wikipedia article](https://en.wikipedia.org/wiki/Lorem_ipsum))
+* `lipsum`: a common list of 293 unique, loosely Latin-looking, sometimes longer 
+words extending the standard form
+* `letraset`: a list of 155 unique loosely Latin-looking or English words used 
+in the 1970s Letraset sample sheets which popularised the practice of Lorem 
+Ipsum placeholder texts (quoted in this scholarly [blog 
+post](https://enseignement-latin.hypotheses.org/5449) demonstrating that it is 
+the source of the standard version, using the same edition of Cicero’s text)
+* `cicero`: a list of 182 unique Latin words
+* `english`: a list of 185 unique English words
+
 ## ⌨️ Commands
 
 Command names can be customized in the setup options; but by default:
