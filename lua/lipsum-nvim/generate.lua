@@ -49,7 +49,7 @@ function M.lines(words, comma, semi, min, max, count)
 
   -- Use only one space between sentences
   -- return table.concat(t, "  ")
-  return table.concat(t, "  ")
+  return table.concat(t, " ")
 end
 
 ---Get paragraph(s) of random length from wordlist
