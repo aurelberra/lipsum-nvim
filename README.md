@@ -82,6 +82,8 @@ post](https://enseignement-latin.hypotheses.org/5449) demonstrating that it is
 the source of the standard version, using the same edition of Cicero’s text)
 * `cicero`: a list of 182 unique Latin words
 * `english`: a list of 185 unique English words
+* `proust`: a list of 205 unique French words, derived from the opening 
+paragraphs of Marcel Proust’s *À la recherche du temps perdu*
 
 ## ⌨️ Commands
 
