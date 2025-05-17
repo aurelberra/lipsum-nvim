@@ -44,9 +44,9 @@ deps.add({
 
 ```lua
 require("lipsum-nvim").setup({
-  ---@type string[] List of words used for generation, will be merged with lipsum.Options.word_list
+  ---@type string[] List of words used for generation, will be merged with lipsum-nvim.Options.word_list
   words = {},
-  ---@type 'cicero'|'english'|'lipsum'|'standard'|nil Preset word list
+  ---@type 'cicero'|'english'|'letraset'|'lipsum'|'proust'|'standard'|nil Preset word list
   word_list = "standard",
   ---@type decimal Chance to insert a comma after a word
   comma_chance = 0.2,
