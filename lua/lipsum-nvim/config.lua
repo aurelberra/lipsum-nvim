@@ -9,7 +9,7 @@ M.namespace = vim.api.nvim_create_namespace("Lipsum")
 local defaults = {
   ---@type string[] List of words used for generation, will be merged with lipsum-nvim.Options.word_list
   words = {},
-  ---@type 'cicero'|'english'|'letraset'|'lipsum'|'standard'|nil Preset word list
+  ---@type 'cicero'|'english'|'letraset'|'lipsum'|'proust'|'standard'|nil Preset word list
   word_list = "standard",
   ---@type decimal Chance to insert a comma after a word
   comma_chance = 0.2,
