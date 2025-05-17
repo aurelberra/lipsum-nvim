@@ -47,6 +47,8 @@ function M.lines(words, comma, semi, min, max, count)
     table.insert(t, title(l) .. ".")
   end
 
+  -- Use only one space between sentences
+  -- return table.concat(t, "  ")
   return table.concat(t, "  ")
 end
 
