@@ -1,13 +1,14 @@
 # lipsum-nvim
 
-A "simple" `Lorem Ipsum` generation plugin.
+A (more or less) simple `Lorem Ipsum` generation plugin.
+
+Originally created by `Stewie410`, whose repo is no longer available.
 
 ## ✨ Features
 
 - User-defined wordlists for generation
 - Generate 1+ words, lines/sentences or paragraphs
 - Customize generator command names
-- Not much else
 
 ## ⚠️ Requirements
 
@@ -83,7 +84,7 @@ Words generated with [lipsum.com](https://www.lipsum.com), based on the
 following options:
 
 - 100,000 words
-- Start with "Lorem ipsum dolor sit amet" enabled
+- Start with “Lorem ipsum dolor sit amet” enabled
 
 Once produced, filtered the results with some `shellscript`:
 
